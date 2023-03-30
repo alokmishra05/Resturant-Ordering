@@ -1,0 +1,47 @@
+<html>
+    <head><meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+       <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <main>
+ <div>
+    <img src="image/Untitled design.png" burger img>
+      </div>
+<div class="feed" id="feed">
+    <!-- ingredients here!! -->
+</div>
+
+<div class = "order" id = "order"> 
+    <!-- selected orders here -->
+</div>
+<div class = "total" id = "total">
+    <!-- total payment here -->
+</div>
+</main>
+<div class="modal" id="modal">
+    <div class="close-modal-btn-container">
+
+    </div>
+    <div class="modal-inner" id="modal-inner">
+        <button class="modal-close-btn" id="modal-close-btn">X</button>
+        <h2>processing your order</h2>
+        <p class="modal-text" id="modal-text">kindly fill your details to proceed with your order, Enter your name and email address and accept our terms and conditions.</p>
+        <form id="consent-form">
+            <p>Full name: <input type="text" name="fullName" placeholder="Enter your full name" required/></p>
+            <p>Email id : <input type="email" name="email" placeholder="Enter your email" required/></p>
+            <p>mobie no : <input type="tel" name="tel" placeholder="999-999-999" required/></p>
+
+            <div class="modal-choice-btns" id="modal-choice-btns">
+                <button type="submit" class="modal-btn" id = "modal-btn">Accept</button>
+            </div>
+
+        </form>
+    </div>
+</div>
+<script src="index.js" type="module"></script>
+    </body>
+    
+</html>
+
+
